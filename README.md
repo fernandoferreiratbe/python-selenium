@@ -22,3 +22,5 @@ python main.py
 - Foram feitas correções na extração dos dados da tabela
 - Foi feito ajuste na chamado do método find_element_by_xpath para **_find_element(By.Resource, value)_**
 - Versão do Python utilizada 3.11.7
+- É necessário instalar o chromedriver (pressuponho que utilizará o Google Chrome para realizar o teste). A versão do meu navegador durante o teste foi a 121.0.6167.160. 
+  * ```$ curl -o chromedriver.zip https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/mac-x64/chromedriver-mac-x64.zip ```
